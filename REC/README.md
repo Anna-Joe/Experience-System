@@ -1,10 +1,10 @@
 ### REC 记录
 >  博客 知乎 官方网站 他人的经验贴    
-- 1 项目搭建
+- [1 项目搭建](project)
   - [java环境配置](https://www.runoob.com/w3cnote/windows10-java-setup.html)
   - [SpringBoot项目搭建](https://www.cnblogs.com/fishpro/p/11165827.html)
-- 2 读书笔记
-- 3 常见问题
-- 4 技能学习
+- [2 读书笔记](bookNote)
+- [3 常见问题](problem)
+- [4 技能学习](skill)
   - [SpringBoot学习框架](https://www.cnblogs.com/fishpro/p/10625506.html)
 
