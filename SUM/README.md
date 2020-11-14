@@ -1,3 +1,4 @@
+### SUM 总结
 > 灵感 想法 深度思考
 - [1 项目经验](proExp)
   - [智能计算3.0常用工具总结](proExp/toolsForSmartPower3.md)
