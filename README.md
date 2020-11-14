@@ -14,7 +14,7 @@
   - [2-3维护日志](ACT/prjLog)
   
   
-- [3-SUM 总结](SUM  > 灵感 想法 深度思考
+- [3-SUM 总结](SUM)  > 灵感 想法 深度思考
   - [3-1项目经验](SUM/prjExp)
   - [3-2编码规范](SUM/codeRule)
   - [3-3算法思想](SUM/algoMind)
