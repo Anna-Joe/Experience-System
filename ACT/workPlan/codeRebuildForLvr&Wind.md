@@ -1,1 +1,13 @@
 # 低穿和建模参数搜索代码合并
+- 目标
+  - 简化代码结构，使得低穿和建模可以公用一个函数搜索LS参数
+- 差距
+  - 无法公用一个函数，或者说公用函数不能放在NeStationCommon类里面
+- 分析
+  - LS参数搜索过程（Dialog中的getFaultParams）需要用到WindFarmCommonParams界面上存储的参数
+  - 而WindFarmCommonParams类用到了NeStationCommon类里面定义的枚举，并且包含了NeStationCommon的头文件，公用函数放在NeStationCommon类里面会造成引用头文件相互依赖的情况
+  - 公用一个函数，需要对代码做大量修改，比如依赖的界面，都要靠参数传递
+  - 对上述做了初步修改之后报了一堆错误，最后还是改回了初始的样子
+- 反思
+  - 也许考虑先把NeStationCommon::E_FaultType放到WindFarmCommonParams类里面，再做后续的参数传递修改
+  - 但是工作量还是巨大，可以把这个任务放在靠后处理
