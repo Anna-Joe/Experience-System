@@ -2,6 +2,7 @@
 > 清单 笔记 markdown
 - [1 工作日程](workPlan)
   - [低穿和建模参数搜索代码合并](workPlan/codeRebuildForLvr&Wind.md)
+  - [计算阻抗值极坐标形式](workPlan/calcRX2PoleCoord.md)
   - [杭州周检修校核功能](workPlan/weeklyMaintForHZ.md)
 - [2 项目设计](design)
   - [江西暂态母线开关拒动](design/psaspBusSwitchFaultForJX.md)
