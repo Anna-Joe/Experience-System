@@ -14,46 +14,41 @@
 
 #### 逐个编译（容易发现错误
 
-cd $CIMPOWERROOT/src/src_self/planning&&zrmake
-cd $CIMPOWERROOT/src/src_self/zadapters&&zrmake
-cd $CIMPOWERROOT/src/src_lib/auxlib&&zrmake
-cd $CIMPOWERROOT/src/src_cim/cimxml&&zrmake
-cd $CIMPOWERROOT/src/src_lib/lib_smart_common&&zrmake
-cd $CIMPOWERROOT/src/src_lib/lib_smart_config&&zrmake
-cd $CIMPOWERROOT/src/src_intel/lib_db&&zrmake
-cd $CIMPOWERROOT/src/src_intel/lib_bizmemdb&&zrmake
-
-cd $CIMPOWERROOT/src/src_web/cpprestlib&&zrmake
-
-cd $CIMPOWERROOT/src/src_web/dmsLoopSearch&&zrmake
+cd $CIMPOWERROOT/src/src_self/planning&&zrmake    
+cd $CIMPOWERROOT/src/src_self/zadapters&&zrmake     
+cd $CIMPOWERROOT/src/src_lib/auxlib&&zrmake    
+cd $CIMPOWERROOT/src/src_cim/cimxml&&zrmake    
+cd $CIMPOWERROOT/src/src_lib/lib_smart_common&&zrmake    
+cd $CIMPOWERROOT/src/src_lib/lib_smart_config&&zrmake    
+cd $CIMPOWERROOT/src/src_intel/lib_db&&zrmake   
+cd $CIMPOWERROOT/src/src_intel/lib_bizmemdb&&zrmake   
+cd $CIMPOWERROOT/src/src_web/cpprestlib&&zrmake    
+cd $CIMPOWERROOT/src/src_web/dmsLoopSearch&&zrmake    
 
 #### 批量编译（基本不会编译出错的项目
 
-cd $CIMPOWERROOT/src/src_web/web_server_maintplanparse&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_server_monthreport&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_server_file&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_server_bztcalc&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_server_riskcalc&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_server_verificationcalc&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_ca&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_sense&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_translimit&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_customizetranslimit&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_maintplanparse&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_monthreport&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_bztcalc&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_risk_verification&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_netrefactor_calc&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_netrefactor_settings&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_netrefactor_graphic&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_server_netrefactorcalc&&zrmake&&
-cd $CIMPOWERROOT/src/src_web/web_server_netrefactorsettings&&zrmake&&
-
-cd $CIMPOWERROOT/src/src_web/web_server_emsload&&zrmake&&
-
-cd $CIMPOWERROOT/src/src_web/web_emsload_import&&zrmake
-
-cd $CIMPOWERROOT/src/src_web/web_dmsDataCatcher&&zrmake
+cd $CIMPOWERROOT/src/src_web/web_server_maintplanparse&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_server_monthreport&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_server_file&&zrmake&&    
+cd $CIMPOWERROOT/src/src_web/web_server_bztcalc&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_server_riskcalc&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_server_verificationcalc&&zrmake&&    
+cd $CIMPOWERROOT/src/src_web/web_risk_ca&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_risk_sense&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_risk_translimit&&zrmake&&    
+cd $CIMPOWERROOT/src/src_web/web_risk_customizetranslimit&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_risk_maintplanparse&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_risk_monthreport&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_risk_bztcalc&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_risk_verification&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_netrefactor_calc&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_netrefactor_settings&&zrmake&&    
+cd $CIMPOWERROOT/src/src_web/web_netrefactor_graphic&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_server_netrefactorcalc&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_server_netrefactorsettings&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_server_emsload&&zrmake&&       
+cd $CIMPOWERROOT/src/src_web/web_emsload_import&&zrmake   
+cd $CIMPOWERROOT/src/src_web/web_dmsDataCatcher&&zrmake   
 
 
 
@@ -111,22 +106,17 @@ cp  /home/zjuadmin/cimpower/release/lib/*   /home/zjuadmin/cimpower/lib
 
 ### 7.启动服务
 
-(nohup web_server_file&)&&
-(nohup web_server_maintplanparse&)&&
-(nohup web_server_monthreport&)&&
-(nohup web_server_riskcalc&)&&
-(nohup web_server_bztcalc&)&&
-
-(nohup web_server_netrefactorcalc&)&&
-(nohup web_server_netrefactorsettings&)&&
-
-(nohup web_server_emsload&)&&
-
-(nohup web_server_verificationcalc&)&&
-
-(nohup web_dmsDataCatcher&)&&
-
-(nohup web_rjys_writebpa&)
+(nohup web_server_file&)&&   
+(nohup web_server_maintplanparse&)&&   
+(nohup web_server_monthreport&)&&   
+(nohup web_server_riskcalc&)&&   
+(nohup web_server_bztcalc&)&&   
+(nohup web_server_netrefactorcalc&)&&   
+(nohup web_server_netrefactorsettings&)&&   
+(nohup web_server_emsload&)&&   
+(nohup web_server_verificationcalc&)&&   
+(nohup web_dmsDataCatcher&)&&   
+(nohup web_rjys_writebpa&)   
 
 (nohup web_server_ca&)&&
 (nohup web_server_sense&)&&
