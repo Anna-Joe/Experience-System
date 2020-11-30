@@ -48,9 +48,9 @@ cd $CIMPOWERROOT/src/src_web/web_server_netrefactorcalc&&zrmake&&
 cd $CIMPOWERROOT/src/src_web/web_server_netrefactorsettings&&zrmake&&   
 cd $CIMPOWERROOT/src/src_web/web_server_emsload&&zrmake&&       
 cd $CIMPOWERROOT/src/src_web/web_emsload_import&&zrmake&&      
-cd $CIMPOWERROOT/src/src_web/web_dmsDataCatcher&&zrmake&& 
-cd $CIMPOWERROOT/src/src_web/web_risk_bztauto&&zrmake&&  
-cd $CIMPOWERROOT/src/src_web/web_server_bztauto&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_dmsDataCatcher&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_risk_bztauto&&zrmake&&     
+cd $CIMPOWERROOT/src/src_web/web_server_bztauto&&zrmake&&      
 cd $CIMPOWERROOT/src/src_web/web_server_basemodel&&zrmake   
 
 
