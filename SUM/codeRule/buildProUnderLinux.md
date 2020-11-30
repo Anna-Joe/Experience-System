@@ -15,14 +15,14 @@
 #### 逐个编译（容易发现错误
 
 cd $CIMPOWERROOT/src/src_self/planning&&zrmake    
-cd $CIMPOWERROOT/src/src_self/zadapters&&zrmake     
-cd $CIMPOWERROOT/src/src_lib/auxlib&&zrmake    
-cd $CIMPOWERROOT/src/src_cim/cimxml&&zrmake    
-cd $CIMPOWERROOT/src/src_lib/lib_smart_common&&zrmake    
-cd $CIMPOWERROOT/src/src_lib/lib_smart_config&&zrmake    
-cd $CIMPOWERROOT/src/src_intel/lib_db&&zrmake   
-cd $CIMPOWERROOT/src/src_intel/lib_bizmemdb&&zrmake   
-cd $CIMPOWERROOT/src/src_web/cpprestlib&&zrmake    
+cd $CIMPOWERROOT/src/src_self/zadapters&&zrmake&&     
+cd $CIMPOWERROOT/src/src_lib/auxlib&&zrmake&&    
+cd $CIMPOWERROOT/src/src_cim/cimxml&&zrmake&&    
+cd $CIMPOWERROOT/src/src_lib/lib_smart_common&&zrmake&&    
+cd $CIMPOWERROOT/src/src_lib/lib_smart_config&&zrmake&&    
+cd $CIMPOWERROOT/src/src_intel/lib_db&&zrmake&&   
+cd $CIMPOWERROOT/src/src_intel/lib_bizmemdb&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/cpprestlib&&zrmake&&    
 cd $CIMPOWERROOT/src/src_web/dmsLoopSearch&&zrmake    
 
 #### 批量编译（基本不会编译出错的项目
