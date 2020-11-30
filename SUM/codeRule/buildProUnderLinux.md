@@ -117,7 +117,9 @@ cp  /home/zjuadmin/cimpower/release/lib/*   /home/zjuadmin/cimpower/lib
 (nohup web_server_emsload&)&&   
 (nohup web_server_verificationcalc&)&&   
 (nohup web_dmsDataCatcher&)&&   
-(nohup web_rjys_writebpa&)   
+(nohup web_rjys_writebpa&)&&  
+(nohup web_server_basemodel&)&&      
+(nohup web_server_bztauto&)    
 
 (nohup web_server_ca&)&&
 (nohup web_server_sense&)&&
