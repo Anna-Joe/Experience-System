@@ -100,8 +100,8 @@ ipcrm -a
 
 ### 6.复制编译后的可执行程序路径
 
-cp  /home/zjuadmin/cimpower/release/bin/*  /home/zjuadmin/cimpower/bin
-cp  /home/zjuadmin/cimpower/release/lib/*   /home/zjuadmin/cimpower/lib
+cp  /home/zjuadmin/cimpower/release/bin/*  /home/zjuadmin/cimpower/bin      
+cp  /home/zjuadmin/cimpower/release/lib/*   /home/zjuadmin/cimpower/lib   
 
 
 
