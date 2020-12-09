@@ -49,6 +49,8 @@ cd $CIMPOWERROOT/src/src_web/web_server_netrefactorsettings&&zrmake&&
 cd $CIMPOWERROOT/src/src_web/web_server_emsload&&zrmake&&       
 cd $CIMPOWERROOT/src/src_web/web_emsload_import&&zrmake&&      
 cd $CIMPOWERROOT/src/src_web/web_dmsDataCatcher&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_rjys_writebpa&&zrmake&&    
+cd $CIMPOWERROOT/src/src_web/web_rjyswriteBpa&&zrmake&&    
 cd $CIMPOWERROOT/src/src_web/web_risk_bztauto&&zrmake&&     
 cd $CIMPOWERROOT/src/src_web/web_server_bztauto&&zrmake&&      
 cd $CIMPOWERROOT/src/src_web/web_server_basemodel&&zrmake   
@@ -118,8 +120,8 @@ cp  /home/zjuadmin/cimpower/release/lib/*   /home/zjuadmin/cimpower/lib
 (nohup web_server_emsload&)&&   
 (nohup web_server_verificationcalc&)&&   
 (nohup web_dmsDataCatcher&)&&   
-(nohup web_rjys_writebpa&)&& 
-(nohup web_server_bpaparse&)&&  
+(nohup web_rjys_writebpa&)&&   
+(nohup web_server_bpaparse&)&&    
 (nohup web_server_basemodel&)&&      
 (nohup web_server_bztauto&)  
 
