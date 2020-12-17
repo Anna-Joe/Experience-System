@@ -124,8 +124,8 @@ cp  /home/zjuadmin/cimpower/release/lib/*   /home/zjuadmin/cimpower/lib
 (nohup web_rjys_writebpa&)&&   
 (nohup web_server_bpaparse&)&&    
 (nohup web_server_basemodel&)&&      
-(nohup web_server_bztauto&)  
-
+(nohup web_server_bztauto&)&&      
+(nohup web_server_paramcompare&)    
 
 
 (nohup web_server_ca&)&&
