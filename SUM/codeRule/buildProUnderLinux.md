@@ -53,8 +53,9 @@ cd $CIMPOWERROOT/src/src_web/web_rjys_writebpa&&zrmake&&
 cd $CIMPOWERROOT/src/src_web/web_rjyswriteBpa&&zrmake&&    
 cd $CIMPOWERROOT/src/src_web/web_risk_bztauto&&zrmake&&     
 cd $CIMPOWERROOT/src/src_web/web_server_bztauto&&zrmake&&      
-cd $CIMPOWERROOT/src/src_web/web_server_basemodel&&zrmake   
-
+cd $CIMPOWERROOT/src/src_web/web_server_basemodel&&zrmake&&   
+cd $CIMPOWERROOT/src/src_web/web_paramcompare_diff&&zrmake&&      
+cd $CIMPOWERROOT/src/src_web/web_server_paramcompare&&zrmake     
 
 
 
