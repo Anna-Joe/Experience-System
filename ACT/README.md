@@ -8,8 +8,11 @@
   - [杭州局风险评估测试日志](workPlan/testLogForHZWeekLyMaint.md)    
 - [2 项目设计](design)
   - [江西暂态母线开关拒动](design/psaspBusSwitchFaultForJX.md)
+  - [关于保存文件的代码重构](workPlan/saveFileStrategy.md)
 - [3 维护日志](proLog)
   - [AVC项目维护日志](proLog/avclog.md)
   - [BPA模型拼接维护日志](proLog/bpaModelMergeLog.md)
   - [新能源风场维护日志](proLog/epriWindLog.md)
+  - [智能计算API](proLog/smartpowerSimpleAPI.md)
+  - [sccpc短路计算CTR文件](sccpcParamIntroduction.md)
 
