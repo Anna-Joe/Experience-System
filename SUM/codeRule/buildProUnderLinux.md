@@ -56,7 +56,8 @@ cd $CIMPOWERROOT/src/src_web/web_server_bztauto&&zrmake&&
 cd $CIMPOWERROOT/src/src_web/web_server_basemodel&&zrmake&&   
 cd $CIMPOWERROOT/src/src_web/web_paramcompare_diff&&zrmake&&      
 cd $CIMPOWERROOT/src/src_web/web_paramcompare_mapper&&zrmake&&        
-cd $CIMPOWERROOT/src/src_web/web_paramcompare_rewriteBpa&&zrmake&&        
+cd $CIMPOWERROOT/src/src_web/web_paramcompare_rewriteBpa&&zrmake&&     
+cd $CIMPOWERROOT/src/src_web/web_paramcompare_parseCime&&zrmake&&    
 cd $CIMPOWERROOT/src/src_web/web_server_paramcompare&&zrmake     
 
 
